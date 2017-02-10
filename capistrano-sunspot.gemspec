@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["navinspm@gmail.com"]
   gem.description   = %q{Capistrano task for sunspot}
   gem.summary       = %q{Capistrano task for sunspot}
-  gem.homepage      = "https://github.com/capistrano/rails"
+  gem.homepage      = "https://github.com/navinspm/capistrano-sunspot"
 
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
