@@ -51,12 +51,4 @@ namespace :solr do
     end
   end
 
- # automatically stop, start and reindex while deploying
-
-if sunspot_auto == false
- after 'deploy:finished', 'solr:stop'
- after  'deploy:finished', 'solr:start'
- after  'deploy:finished', 'solr:reindex'
-end
-
 end

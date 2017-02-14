@@ -14,7 +14,7 @@ Add these lines to your application's Gemfile:
 ```ruby
 group :development do
   gem 'capistrano'
-  gem 'capistrano-rails'
+  gem 'capistrano-sunspot'
 end
 ```
 
@@ -57,13 +57,6 @@ Make sure you enable it by setting `linked_dirs` and `linked_files` options:
 # deploy.rb
 set :linked_dirs, fetch(:linked_dirs, []).push('solr')
 
-```
-
-### Configuraion
-If you want to automatically stop, start and reindex while deploying 
-
-```
-set :sunspot_auto, :true
 ```
 
 
